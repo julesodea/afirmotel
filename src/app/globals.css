@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-card-bg: #ffffff;
+
+  /* Theme colors */
+  --color-theme-primary: #3b82f6;
+  --color-theme-primary-light: #dbeafe;
+
+  /* Button colors */
+  --color-button-primary: #111827;
+  --color-button-primary-hover: #1f2937;
+  --color-button-secondary: #ffffff;
+  --color-button-secondary-hover: #f9fafb;
+  --color-button-danger: #ef4444;
+  --color-button-danger-hover: #dc2626;
+}
+
+body {
+  background: #f9fafb;
+  color: #1f2937;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
